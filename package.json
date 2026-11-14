@@ -4,7 +4,7 @@
   "description": "Solace Society — curated luxury travel experiences (solacesociety.in). Static multi-page website; no build step required.",
   "private": true,
   "scripts": {
-    "build": "echo 'Static site — nothing to build'",
+    "build": "python3 scripts/version-assets.py",
     "start": "echo 'Serve this directory statically (e.g. public_html on Hostinger)'"
   },
   "keywords": ["luxury travel", "travel club", "curated journeys", "solace society"],

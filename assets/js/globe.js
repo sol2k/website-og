@@ -1,7 +1,7 @@
 /* Solace Society — interactive globe with destination waitlist pinning
    Dotted earth silhouette, drag/swipe to rotate, tap to drop a pin. */
-import * as THREE from "./three.module.min.js";
-import { LAND_POINTS } from "./land-data.js";
+import * as THREE from "./three.module.min.js?v=4d8e72af";
+import { LAND_POINTS } from "./land-data.js?v=299c7eb0";
 
 const stage = document.querySelector("[data-globe]");
 if (stage) init();
