@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://solacesociety.in/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/hero.jpg</image:loc>
+      <image:title>Solace Society — Curated Luxury Travel Experiences</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://solacesociety.in/experiences.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/exp-kyoto.jpg</image:loc>
+      <image:title>Kyoto in Vermilion — Bespoke Japan Journey</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/exp-santorini.jpg</image:loc>
+      <image:title>The Caldera Hour — Santorini Escape</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/exp-patagonia.jpg</image:loc>
+      <image:title>Edge of the World — Patagonia Expedition</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/exp-marrakech.jpg</image:loc>
+      <image:title>The Riad Within — Marrakech Journey</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/exp-maldives.jpg</image:loc>
+      <image:title>Still Water Days — Maldives Wellness Retreat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/exp-alps.jpg</image:loc>
+      <image:title>The Alpine Pause — Swiss Wellness Journey</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://solacesociety.in/about.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://solacesociety.in/membership.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://solacesociety.in/contact.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

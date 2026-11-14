@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Solace Society — A Club for the Well-Lived">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e7c3"/>
+      <stop offset=".45" stop-color="#d9bc85"/>
+      <stop offset="1" stop-color="#a8854f"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f7e7c3" stop-opacity=".9"/>
+      <stop offset=".6" stop-color="#d9bc85" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#d9bc85" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Wordmark : the O is rendered as the radiant sun-and-crown mark -->
+  <g fill="#f4efe6" font-family="'Cormorant Garamond', 'Times New Roman', serif" font-size="104" font-weight="500" letter-spacing="20">
+    <text x="86" y="158">S</text>
+    <text x="316" y="158">LACE</text>
+  </g>
+
+  <!-- Sun mark -->
+  <g transform="translate(238 122)">
+    <circle r="86" fill="url(#sunGlow)"/>
+    <g stroke="url(#gold)" stroke-width="1.6" opacity=".85">
+      <line y1="-64" y2="-78"/>
+      <line y1="64"  y2="78"/>
+      <line x1="-64" x2="-78"/>
+      <line x1="64"  x2="78"/>
+      <line x1="45" y1="-45" x2="55" y2="-55"/>
+      <line x1="-45" y1="45" x2="-55" y2="55"/>
+      <line x1="45" y1="45" x2="55" y2="55"/>
+      <line x1="-45" y1="-45" x2="-55" y2="-55"/>
+      <line x1="22" y1="-59.4" x2="27" y2="-72.8"/>
+      <line x1="-22" y1="59.4" x2="-27" y2="72.8"/>
+      <line x1="59.4" y1="-22" x2="72.8" y2="-27"/>
+      <line x1="-59.4" y1="22" x2="-72.8" y2="27"/>
+      <line x1="22" y1="59.4" x2="27" y2="72.8"/>
+      <line x1="-22" y1="-59.4" x2="-27" y2="-72.8"/>
+      <line x1="59.4" y1="22" x2="72.8" y2="27"/>
+      <line x1="-59.4" y1="-22" x2="-72.8" y2="-27"/>
+    </g>
+    <circle r="52" fill="none" stroke="url(#gold)" stroke-width="2.5"/>
+    <circle r="45" fill="none" stroke="url(#gold)" stroke-width=".8" opacity=".6"/>
+    <!-- Crown -->
+    <g transform="translate(0 -66)" fill="url(#gold)">
+      <path d="M-26 6 L-30 -18 L-15 -8 L0 -24 L15 -8 L30 -18 L26 6 Z"/>
+      <rect x="-26" y="8" width="52" height="5" rx="2"/>
+      <circle cx="-30" cy="-20" r="3.4"/>
+      <circle cy="-27" r="3.8"/>
+      <circle cx="30" cy="-20" r="3.4"/>
+    </g>
+  </g>
+
+  <!-- Tagline -->
+  <g stroke="url(#gold)" stroke-width="1" opacity=".7">
+    <line x1="96" y1="216" x2="196" y2="216"/>
+    <line x1="564" y1="216" x2="664" y2="216"/>
+  </g>
+  <text x="380" y="222" text-anchor="middle" fill="#d9bc85" font-family="'Jost', 'Helvetica Neue', sans-serif" font-size="19" font-weight="400" letter-spacing="8">A CLUB FOR THE WELL-LIVED</text>
+
+  <!-- Pillars -->
+  <text x="380" y="272" text-anchor="middle" fill="#a89f8d" font-family="'Jost', 'Helvetica Neue', sans-serif" font-size="15" font-weight="300" letter-spacing="7">TRAVEL&#160;&#160;&#183;&#160;&#160;WELLNESS&#160;&#160;&#183;&#160;&#160;CULTURE&#160;&#160;&#183;&#160;&#160;ACCESS</text>
+</svg>

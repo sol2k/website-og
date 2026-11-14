@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Solace Society mark">
+  <defs>
+    <linearGradient id="gGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e7c3"/>
+      <stop offset=".45" stop-color="#d9bc85"/>
+      <stop offset="1" stop-color="#a8854f"/>
+    </linearGradient>
+    <radialGradient id="gGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f7e7c3" stop-opacity=".55"/>
+      <stop offset=".65" stop-color="#d9bc85" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#d9bc85" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#12100d"/>
+  <g transform="translate(256 268)">
+    <circle r="200" fill="url(#gGlow)"/>
+    <g stroke="url(#gGold)" stroke-width="6" opacity=".85">
+      <line y1="-150" y2="-182"/>
+      <line y1="150"  y2="182"/>
+      <line x1="-150" x2="-182"/>
+      <line x1="150"  x2="182"/>
+      <line x1="106" y1="-106" x2="129" y2="-129"/>
+      <line x1="-106" y1="106" x2="-129" y2="129"/>
+      <line x1="106" y1="106" x2="129" y2="129"/>
+      <line x1="-106" y1="-106" x2="-129" y2="-129"/>
+      <line x1="52" y1="-140.7" x2="63" y2="-172.5"/>
+      <line x1="-52" y1="140.7" x2="-63" y2="172.5"/>
+      <line x1="140.7" y1="-52" x2="172.5" y2="-63"/>
+      <line x1="-140.7" y1="52" x2="-172.5" y2="63"/>
+      <line x1="52" y1="140.7" x2="63" y2="172.5"/>
+      <line x1="-52" y1="-140.7" x2="-63" y2="-172.5"/>
+      <line x1="140.7" y1="52" x2="172.5" y2="63"/>
+      <line x1="-140.7" y1="-52" x2="-172.5" y2="-63"/>
+    </g>
+    <circle r="122" fill="none" stroke="url(#gGold)" stroke-width="9"/>
+    <circle r="106" fill="none" stroke="url(#gGold)" stroke-width="3" opacity=".55"/>
+    <g transform="translate(0 -152)" fill="url(#gGold)">
+      <path d="M-61 14 L-70 -42 L-35 -19 L0 -56 L35 -19 L70 -42 L61 14 Z"/>
+      <rect x="-61" y="19" width="122" height="12" rx="6"/>
+      <circle cx="-70" cy="-47" r="8"/>
+      <circle cy="-61" r="9"/>
+      <circle cx="70" cy="-47" r="8"/>
+    </g>
+  </g>
+</svg>
