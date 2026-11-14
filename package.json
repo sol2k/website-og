@@ -1,0 +1,16 @@
+{
+  "name": "solace-society-website",
+  "version": "1.0.0",
+  "description": "Solace Society — curated luxury travel experiences (solacesociety.in). Static multi-page website; no build step required.",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site — nothing to build'",
+    "start": "echo 'Serve this directory statically (e.g. public_html on Hostinger)'"
+  },
+  "keywords": ["luxury travel", "travel club", "curated journeys", "solace society"],
+  "author": "Solace Society",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  }
+}
