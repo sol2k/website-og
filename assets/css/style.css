@@ -731,6 +731,16 @@ a.contact-tile:hover, a.contact-tile:focus-visible { background: var(--ink-2); }
 .value p { color: var(--muted); font-size: .95rem; }
 @media (max-width: 700px) { .values { grid-template-columns: 1fr; } }
 
+/* ---------- The Inner Circle ---------- */
+.privileges { max-width: 880px; margin-inline: auto; border-top: 1px solid var(--line); }
+.privilege { display: grid; grid-template-columns: clamp(44px, 6vw, 72px) 1fr; gap: clamp(16px, 3vw, 32px); padding: clamp(26px, 3.4vw, 40px) 0; border-bottom: 1px solid var(--line); }
+.privilege .num { font-family: var(--font-serif); font-size: .95rem; color: var(--gold); letter-spacing: .2em; padding-top: 5px; }
+.privilege h3 { font-size: 1.28rem; margin-bottom: 10px; }
+.privilege p { color: var(--muted); font-size: .97rem; max-width: 58ch; }
+.privilege { transition: background .5s ease; }
+.privilege:hover { background: var(--ink-2); }
+.inner-close { text-align: center; margin-top: clamp(44px, 6vw, 68px); font-family: var(--font-serif); font-style: italic; font-size: clamp(1.25rem, 2.6vw, 1.75rem); color: var(--paper); }
+
 /* ---------- 404 ---------- */
 .nf { min-height: 100svh; display: flex; align-items: center; justify-content: center; text-align: center; }
 .nf h1 { font-size: clamp(4rem, 14vw, 9rem); color: var(--gold); }
