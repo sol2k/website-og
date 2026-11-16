@@ -262,8 +262,8 @@ section { position: relative; padding: clamp(84px, 11vw, 150px) 0; }
 }
 .hero-content { max-width: 860px; }
 .hero h1 { margin: 0 0 28px; }
-.hero h1 .line { display: block; overflow: hidden; }
-.hero h1 .line > span { display: inline-block; }
+.hero h1 .line, .page-hero h1 .line { display: block; overflow: hidden; }
+.hero h1 .line > span, .page-hero h1 .line > span { display: inline-block; }
 .hero .lede { margin-bottom: 42px; max-width: 54ch; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 22px; align-items: center; }
 
