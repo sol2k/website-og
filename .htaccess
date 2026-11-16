@@ -30,4 +30,12 @@
   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
   RewriteCond %{HTTP_HOST} ^www\.solacesociety\.in$ [NC]
   RewriteRule ^(.*)$ https://solacesociety.in/$1 [L,R=301]
+
+  # Extensionless URLs: /experiences serves experiences.html
+  # (redirect the .html variant to the clean URL for one canonical form)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^([a-zA-Z0-9_-]+)$ $1.html [L]
+  RewriteCond %{THE_REQUEST} \s/([a-zA-Z0-9_-]+)\.html[\s?]
+  RewriteRule ^([a-zA-Z0-9_-]+)\.html$ /$1 [L,R=301]
 </IfModule>

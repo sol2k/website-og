@@ -12,7 +12,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://solacesociety.in/experiences.html</loc>
+    <loc>https://solacesociety.in/experiences</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -42,19 +42,19 @@
     </image:image>
   </url>
   <url>
-    <loc>https://solacesociety.in/about.html</loc>
+    <loc>https://solacesociety.in/about</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solacesociety.in/membership.html</loc>
+    <loc>https://solacesociety.in/membership</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solacesociety.in/contact.html</loc>
+    <loc>https://solacesociety.in/contact</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
