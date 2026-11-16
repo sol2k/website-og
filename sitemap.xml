@@ -59,4 +59,14 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://solacesociety.in/best-luxury-holiday-destinations-2027</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/article-hero.jpg</image:loc>
+      <image:title>15 Best Luxury Holiday Destinations in the World for 2027 — Solace Society</image:title>
+    </image:image>
+  </url>
 </urlset>
