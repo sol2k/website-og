@@ -732,14 +732,42 @@ a.contact-tile:hover, a.contact-tile:focus-visible { background: var(--ink-2); }
 @media (max-width: 700px) { .values { grid-template-columns: 1fr; } }
 
 /* ---------- The Inner Circle ---------- */
+section.inner { padding: 0; }
+.inner-banner {
+  position: relative;
+  min-height: 78svh;
+  display: flex; align-items: flex-end;
+  padding: clamp(130px, 18vw, 210px) 0 clamp(64px, 8vw, 110px);
+  overflow: hidden;
+}
+.inner-banner img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.inner-banner::before {
+  content: "";
+  position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(180deg, rgba(18,16,13,.6) 0%, rgba(18,16,13,.12) 38%, rgba(18,16,13,.55) 68%, rgba(18,16,13,.94) 100%);
+}
+.inner-banner h2 { max-width: 15ch; }
+.inner-banner .lede { max-width: 56ch; margin-top: 24px; color: var(--paper-dim); }
+.inner-body { padding: clamp(88px, 11vw, 150px) 0 clamp(100px, 13vw, 170px); }
+.inner-body > .eyebrow { margin-bottom: clamp(36px, 5vw, 56px); }
 .privileges { max-width: 880px; margin-inline: auto; border-top: 1px solid var(--line); }
-.privilege { display: grid; grid-template-columns: clamp(44px, 6vw, 72px) 1fr; gap: clamp(16px, 3vw, 32px); padding: clamp(26px, 3.4vw, 40px) 0; border-bottom: 1px solid var(--line); }
-.privilege .num { font-family: var(--font-serif); font-size: .95rem; color: var(--gold); letter-spacing: .2em; padding-top: 5px; }
-.privilege h3 { font-size: 1.28rem; margin-bottom: 10px; }
-.privilege p { color: var(--muted); font-size: .97rem; max-width: 58ch; }
-.privilege { transition: background .5s ease; }
+.privilege { display: grid; grid-template-columns: clamp(52px, 7vw, 88px) 1fr; gap: clamp(16px, 3vw, 36px); padding: clamp(28px, 3.6vw, 44px) 0; border-bottom: 1px solid var(--line); transition: background .5s ease; }
 .privilege:hover { background: var(--ink-2); }
-.inner-close { text-align: center; margin-top: clamp(44px, 6vw, 68px); font-family: var(--font-serif); font-style: italic; font-size: clamp(1.25rem, 2.6vw, 1.75rem); color: var(--paper); }
+.privilege .num { font-family: var(--font-serif); font-size: .98rem; color: var(--gold); letter-spacing: .22em; padding-top: 6px; }
+.privilege h3 { font-size: 1.32rem; margin-bottom: 10px; }
+.privilege p { color: var(--muted); font-size: .97rem; max-width: 58ch; }
+.inner-close {
+  text-align: center;
+  margin-top: clamp(56px, 8vw, 92px);
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3.2vw, 2.3rem);
+  line-height: 1.5;
+  color: var(--paper);
+}
+.inner-close em { color: var(--gold); font-style: italic; }
+@media (max-width: 560px) {
+  .inner-banner { min-height: 64svh; }
+}
 
 /* ---------- 404 ---------- */
 .nf { min-height: 100svh; display: flex; align-items: center; justify-content: center; text-align: center; }
