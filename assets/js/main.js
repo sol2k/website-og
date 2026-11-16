@@ -1,4 +1,4 @@
-/* Solace Society: shared behaviours */
+/* Solace: shared behaviours */
 (function () {
   "use strict";
 

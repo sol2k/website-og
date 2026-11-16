@@ -1,11 +1,11 @@
-# Brand Language | Solace Society
+# Brand Language | Solace
 
-> The single source of truth for how Solace Society speaks.
+> The single source of truth for how Solace speaks.
 > Read this before writing **any** copy for the site, social, email or WhatsApp.
 
 ## Brand essence
 
-**One line:** Solace Society is a private travel club that composes journeys the way authors compose chapters, deliberately, beautifully, and only once.
+**One line:** Solace is a private travel club that composes journeys the way authors compose chapters, deliberately, beautifully, and only once.
 
 **Brand promise:** The world, arranged around you.
 
@@ -41,10 +41,10 @@ We speak like a well-travelled friend with impeccable manners, never like a broc
 ## Boilerplate copy
 
 **Short (meta descriptions, bios, ~160 chars):**
-> Solace Society is a private travel club composing bespoke luxury journeys across travel, wellness, culture and access, designed around you, never packaged.
+> Solace is a private travel club composing bespoke luxury journeys across travel, wellness, culture and access, designed around you, never packaged.
 
 **Long (about pages, press, ~60 words):**
-> Solace Society is a private travel club for discerning travellers. We compose bespoke journeys from a blank page, private guides, rare access, wellness rituals and cultural depth, arranged around your pace and your occasion. Travel, wellness, culture, access: four pillars, one philosophy, that the best journeys are authored, not booked.
+> Solace is a private travel club for discerning travellers. We compose bespoke journeys from a blank page, private guides, rare access, wellness rituals and cultural depth, arranged around your pace and your occasion. Travel, wellness, culture, access: four pillars, one philosophy, that the best journeys are authored, not booked.
 
 ## Grammar & style rules
 
@@ -52,7 +52,7 @@ We speak like a well-travelled friend with impeccable manners, never like a broc
 - **Body:** 17px Jost Light, 65–75 characters per line, never justify.
 - **Numbers:** phone written "+91 96504 70279"; years as numerals; stats with Indian locale grouping (98%).
 - **CTAs:** verbs of invitation, "Explore", "Begin", "Join", "Call the Concierge". Never "Submit", "Buy", "Click here".
-- **WhatsApp hand-offs:** open with "Hello Solace Society," and state the request in one line before details.
+- **WhatsApp hand-offs:** open with "Hello Solace," and state the request in one line before details.
 - **No exclamation marks** in brand copy. Ever. Enthusiasm is shown through specificity.
 
 ## Cliché watchlist (never publish these)

@@ -1,4 +1,4 @@
-# Marketing Playbook | Solace Society
+# Marketing Playbook | Solace
 
 > How the club grows: channels, campaigns, and the WhatsApp concierge funnel.
 

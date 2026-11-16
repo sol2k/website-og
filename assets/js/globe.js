@@ -1,4 +1,4 @@
-/* Solace Society: interactive globe with destination waitlist pinning
+/* Solace: interactive globe with destination waitlist pinning
    Dotted earth silhouette, drag/swipe to rotate, tap to drop a pin. */
 import * as THREE from "./three.module.min.js?v=4d8e72af";
 import { LAND_POINTS } from "./land-data.js?v=299c7eb0";
@@ -236,7 +236,7 @@ function init() {
       try { localStorage.setItem("solace-waitlist", JSON.stringify({ ...data, at: Date.now() })); } catch (_) {}
       /* Hand-off via WhatsApp so the concierge receives it instantly */
       const msg =
-        "Hello Solace Society, I would like to join the waitlist.%0A%0A" +
+        "Hello Solace, I would like to join the waitlist.%0A%0A" +
         "Name: " + encodeURIComponent(data.name) + "%0A" +
         "Destination: " + encodeURIComponent(data.destination) + "%0A" +
         "Travel window: " + encodeURIComponent(data.window) + "%0A" +

@@ -1,4 +1,4 @@
-# Solace Society | solacesociety.in
+# Solace | solacesociety.in
 
 **A Club for the Well-Lived** · Travel · Wellness · Culture · Access
 

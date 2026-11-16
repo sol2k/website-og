@@ -1,4 +1,4 @@
-# Design System | Solace Society
+# Design System | Solace
 
 > Visual and motion tokens. Any new page or component must use these.
 
