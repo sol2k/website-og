@@ -3,59 +3,59 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://solacesociety.in/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://solacesociety.in/assets/img/hero.jpg</image:loc>
-      <image:title>Solace Society — Curated Luxury Travel Experiences</image:title>
+      <image:title>Solace Society | Curated Luxury Travel Experiences</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://solacesociety.in/experiences</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://solacesociety.in/assets/img/exp-kyoto.jpg</image:loc>
-      <image:title>Kyoto in Vermilion — Bespoke Japan Journey</image:title>
+      <image:title>Kyoto in Vermilion: Bespoke Japan Journey</image:title>
     </image:image>
     <image:image>
       <image:loc>https://solacesociety.in/assets/img/exp-santorini.jpg</image:loc>
-      <image:title>The Caldera Hour — Santorini Escape</image:title>
+      <image:title>The Caldera Hour: Santorini Escape</image:title>
     </image:image>
     <image:image>
       <image:loc>https://solacesociety.in/assets/img/exp-patagonia.jpg</image:loc>
-      <image:title>Edge of the World — Patagonia Expedition</image:title>
+      <image:title>Edge of the World: Patagonia Expedition</image:title>
     </image:image>
     <image:image>
       <image:loc>https://solacesociety.in/assets/img/exp-marrakech.jpg</image:loc>
-      <image:title>The Riad Within — Marrakech Journey</image:title>
+      <image:title>The Riad Within: Marrakech Journey</image:title>
     </image:image>
     <image:image>
       <image:loc>https://solacesociety.in/assets/img/exp-maldives.jpg</image:loc>
-      <image:title>Still Water Days — Maldives Wellness Retreat</image:title>
+      <image:title>Still Water Days: Maldives Wellness Retreat</image:title>
     </image:image>
     <image:image>
       <image:loc>https://solacesociety.in/assets/img/exp-alps.jpg</image:loc>
-      <image:title>The Alpine Pause — Swiss Wellness Journey</image:title>
+      <image:title>The Alpine Pause: Swiss Wellness Journey</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://solacesociety.in/about</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://solacesociety.in/membership</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://solacesociety.in/contact</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -66,7 +66,7 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://solacesociety.in/assets/img/article-hero.jpg</image:loc>
-      <image:title>15 Best Luxury Holiday Destinations in the World for 2027 — Solace Society</image:title>
+      <image:title>15 Best Luxury Holiday Destinations in the World for 2027 | Solace Society</image:title>
     </image:image>
   </url>
 </urlset>

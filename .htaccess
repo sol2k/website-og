@@ -1,6 +1,6 @@
-# Solace Society — cache policy (Hostinger / Apache)
+# Solace Society | cache policy (Hostinger / Apache)
 # HTML is always revalidated; versioned assets (?v=hash) are cached forever.
-# After each deploy, only HTML travels again — assets only when they changed.
+# After each deploy, only HTML travels again; assets only when they changed.
 
 <IfModule mod_headers.c>
   # HTML pages: revalidate every visit
@@ -23,7 +23,7 @@
   AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
 </IfModule>
 
-# One canonical host — everything else redirects
+# One canonical host: everything else redirects
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteCond %{HTTPS} off

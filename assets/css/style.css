@@ -1,10 +1,10 @@
 /* ============================================================
-   SOLACE SOCIETY — solacesociety.in
+   SOLACE SOCIETY | solacesociety.in
    A Club for the Well-Lived · Travel · Wellness · Culture · Access
    ============================================================ */
 
 :root {
-  /* Palette — warm near-black, off-white, muted gold */
+  /* Palette: warm near-black, off-white, muted gold */
   --ink:        #12100d;
   --ink-2:      #1a1712;
   --ink-3:      #242019;
@@ -385,6 +385,41 @@ section { position: relative; padding: clamp(84px, 11vw, 150px) 0; }
 @media (max-width: 900px) { .exp-grid { grid-template-columns: 1fr 1fr; } .exp-card:nth-child(3n+2) { transform: none; } }
 @media (max-width: 580px) { .exp-grid { grid-template-columns: 1fr; } }
 
+
+/* ---------- Collections ---------- */
+.collect-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(24px, 3vw, 40px);
+}
+.collect-card {
+  position: relative;
+  display: block;
+  background: var(--ink-2);
+  border: 1px solid var(--line);
+  transition: border-color .5s ease;
+}
+.collect-card:hover, .collect-card:focus-visible { border-color: rgba(217, 188, 133, .45); }
+.collect-card figure { overflow: hidden; aspect-ratio: 3 / 2; position: relative; margin: 0; }
+.collect-card img {
+  width: 100%; height: 100%; object-fit: cover;
+  filter: saturate(.92);
+  transition: transform 1.2s var(--ease-out), filter 1.2s var(--ease-out);
+}
+.collect-card:hover img, .collect-card:focus-visible img { transform: scale(1.05); filter: saturate(1.05); }
+.collect-body { padding: clamp(24px, 3vw, 38px); }
+.collect-num {
+  display: block;
+  font-size: .7rem;
+  letter-spacing: .34em;
+  text-transform: uppercase;
+  color: var(--gold-mid);
+  margin-bottom: 12px;
+}
+.collect-body h3 { font-size: 1.6rem; margin-bottom: 10px; }
+.collect-body p { color: var(--muted); font-size: .95rem; margin: 0; }
+@media (max-width: 800px) { .collect-grid { grid-template-columns: 1fr; } }
+
 /* ---------- Editorial quote band ---------- */
 .quote-band { background: var(--ink-2); border-block: 1px solid var(--line); text-align: center; }
 .quote-band blockquote {
@@ -692,7 +727,7 @@ a.contact-tile:hover, a.contact-tile:focus-visible { background: var(--ink-2); }
 .values { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
 .value { background: var(--ink); padding: clamp(30px, 4vw, 48px); }
 .value h3 { font-size: 1.3rem; margin-bottom: 12px; }
-.value h3::before { content: "— "; color: var(--gold); }
+.value h3::before { content: "· "; color: var(--gold); }
 .value p { color: var(--muted); font-size: .95rem; }
 @media (max-width: 700px) { .values { grid-template-columns: 1fr; } }
 

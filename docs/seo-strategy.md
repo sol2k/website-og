@@ -1,14 +1,14 @@
-# SEO Strategy — solacesociety.in
+# SEO Strategy | solacesociety.in
 
 > Non-branded keyword targeting, on-page rules, and schema inventory.
 > Re-verify search volumes quarterly; treat this as the living map.
 
 ## Target personas & intent
 
-1. **The celebration traveller** — honeymoon / anniversary / milestone. Intent: "luxury honeymoon destinations", "private anniversary trip".
-2. **The wellness seeker** — burnout recovery, retreats. Intent: "luxury wellness retreats", "wellness travel India".
-3. **The culture traveller** — food, art, access. Intent: "private cultural tours", "curated travel experiences".
-4. **The status-conscious explorer** — wants what others can't access. Intent: "exclusive travel club", "private members travel club India".
+1. **The celebration traveller**, honeymoon / anniversary / milestone. Intent: "luxury honeymoon destinations", "private anniversary trip".
+2. **The wellness seeker**, burnout recovery, retreats. Intent: "luxury wellness retreats", "wellness travel India".
+3. **The culture traveller**, food, art, access. Intent: "private cultural tours", "curated travel experiences".
+4. **The status-conscious explorer**, wants what others can't access. Intent: "exclusive travel club", "private members travel club India".
 
 ## Keyword map (non-branded primary targets)
 
@@ -35,7 +35,7 @@
 4. **Canonical** on every page; absolute URLs; https only.
 5. **Images:** descriptive alt text (write for a blind traveller, not a crawler), `loading="lazy"` below the fold, `fetchpriority="high"` on the hero only.
 6. **Internal links:** every page links to Contact and at least one sibling content page with descriptive anchor text (no "click here").
-7. **Anchor IDs** (`#kyoto`, `#globe`, `#faq`) are part of the sitemap of the UX — keep them stable; they are linked from other pages.
+7. **Anchor IDs** (`#kyoto`, `#globe`, `#faq`) are part of the sitemap of the UX, keep them stable; they are linked from other pages.
 
 ## Schema inventory (deployed)
 
@@ -51,9 +51,9 @@
 
 ## Technical checklist
 
-- `sitemap.xml` — update `<lastmod>` on every content change; resubmit in Search Console.
-- `robots.txt` — keep `Allow: /` and the sitemap line; add Disallow only for real admin/staging paths.
-- `.htaccess` — asset versioning via `?v=` hashes (see `scripts/version-assets.py`); HTML served `must-revalidate`, hashed assets `immutable`.
+- `sitemap.xml`, update `<lastmod>` on every content change; resubmit in Search Console.
+- `robots.txt`, keep `Allow: /` and the sitemap line; add Disallow only for real admin/staging paths.
+- `.htaccess`, asset versioning via `?v=` hashes (see `scripts/version-assets.py`); HTML served `must-revalidate`, hashed assets `immutable`.
 - **Page weight budget:** hero ≤ 250 KB, card images ≤ 400 KB, total first load ≤ 2.5 MB, LCP < 2.5 s on 4G.
 - 404 monitoring in Search Console after launch; custom `404.html` already in place.
 
@@ -61,5 +61,5 @@
 
 1. Submit sitemap → Search Console + Bing Webmaster.
 2. Request indexing for `/` and `/experiences.html` manually.
-3. Set up WhatsApp Business click tracking (UTM: `?utm_source=site&utm_medium=wa_button` style) — track which sections generate concierge leads.
+3. Set up WhatsApp Business click tracking (UTM: `?utm_source=site&utm_medium=wa_button` style), track which sections generate concierge leads.
 4. Monthly: check Coverage, Core Web Vitals, and queries gaining impressions; expand Journal content on rising queries.

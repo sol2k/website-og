@@ -1,4 +1,4 @@
-# Design System — Solace Society
+# Design System | Solace Society
 
 > Visual and motion tokens. Any new page or component must use these.
 
@@ -22,8 +22,8 @@ Rules: warm near-black, never pure `#000`; gold is ≤10% of any screen; no othe
 
 ## Typography
 
-- **Display:** Cormorant Garamond 500 — H1 `clamp(2.6rem,6.4vw,5.4rem)`, H2 `clamp(2rem,4.4vw,3.4rem)`, tight leading (1.12).
-- **UI/body:** Jost 300 — 17px/1.7 body; letterspaced (0.3em+) uppercase for eyebrows, buttons, nav, meta (12–19px, weight 400).
+- **Display:** Cormorant Garamond 500, H1 `clamp(2.6rem,6.4vw,5.4rem)`, H2 `clamp(2rem,4.4vw,3.4rem)`, tight leading (1.12).
+- **UI/body:** Jost 300, 17px/1.7 body; letterspaced (0.3em+) uppercase for eyebrows, buttons, nav, meta (12–19px, weight 400).
 - No other typefaces. No italics except pull-quotes.
 
 ## Signature components
@@ -51,8 +51,8 @@ Rules: warm near-black, never pure `#000`; gold is ≤10% of any screen; no othe
 
 ## Logo usage
 
-- `logo-full.svg` — footer, about pages, dark backgrounds only.
-- `logo-mark.svg` — favicon, touch icon, header (34px inline), OG image.
+- `logo-full.svg`, footer, about pages, dark backgrounds only.
+- `logo-mark.svg`, favicon, touch icon, header (34px inline), OG image.
 - Never recolor, outline, or set the wordmark on light backgrounds (a light variant may be added to `assets/img/` if ever needed).
 - Clear space: crown height on all sides. Minimum wordmark width 180px.
 

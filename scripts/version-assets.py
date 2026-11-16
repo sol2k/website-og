@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Version-assets: content-hash cache busting for Solace Society.
 
-Rewrites every /assets/(css|js) reference in the HTML files to
+Rewrites every /assets/(css|js|img) reference in the HTML files to
 /assets/...?v=<short-md5-of-file-content>. When an asset changes, its URL
-changes, so browsers and CDNs never serve a stale copy — no manual cache
+changes, so browsers and CDNs never serve a stale copy, no manual cache
 clears after deploys.
 
 Run before every commit (or via `npm run build`):  python3 scripts/version-assets.py
@@ -14,8 +14,8 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ASSET_RE = re.compile(r"(/(assets/(?:css|js)/[\w.-]+\.(?:css|js)))(\?v=[0-9a-f]{8})?")
-# ES-module imports inside JS files use relative paths — version those too.
+ASSET_RE = re.compile(r"(/(assets/(?:css|js|img)/[\w.-]+\.(?:css|js|jpe?g|png|webp|svg)))(\?v=[0-9a-f]{8})?")
+# ES-module imports inside JS files use relative paths, version those too.
 IMPORT_RE = re.compile(r"""((?:from\s+|import\s*\()\s*["'])(\./[\w.-]+\.(?:js))(["'])""")
 
 
