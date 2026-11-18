@@ -69,4 +69,14 @@
       <image:title>15 Best Luxury Holiday Destinations in the World for 2027 | Solace</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://solacesociety.in/luxury-travel-vs-regular-holidays</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/lux-vs-hero.jpg</image:loc>
+      <image:title>Luxury Travel vs Regular Holidays: What Makes the Difference? | Solace</image:title>
+    </image:image>
+  </url>
 </urlset>
