@@ -440,6 +440,15 @@ section { position: relative; padding: clamp(84px, 11vw, 150px) 0; }
   color: var(--gold-mid);
 }
 
+/* ---------- Quote strip (Experiences) ---------- */
+.quote-strip { padding: clamp(52px, 7vw, 88px) 0; }
+.quote-strip blockquote {
+  font-size: clamp(1.25rem, 2.2vw, 1.8rem);
+  line-height: 1.5;
+  max-width: 58ch;
+  margin-bottom: 20px;
+}
+
 /* ---------- Globe / waitlist ---------- */
 .globe-section {
   background:
