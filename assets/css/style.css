@@ -5,9 +5,9 @@
 
 :root {
   /* Palette: warm beige, ink-brown, muted gold */
-  --ink:        #f3edde;
-  --ink-2:      #ece3d0;
-  --ink-3:      #e2d8c1;
+  --ink:        #e7dabd;
+  --ink-2:      #dfd2ae;
+  --ink-3:      #d4c5a0;
   --paper:      #27221b;
   --paper-dim:  #5a5040;
   --muted:      #8a7e68;
@@ -156,13 +156,13 @@ section { position: relative; padding: clamp(84px, 11vw, 150px) 0; }
   height: var(--header-h);
   display: flex;
   align-items: center;
-  background: rgba(243, 237, 222, .88);
+  background: rgba(231, 218, 189, .88);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   transition: background .45s ease, box-shadow .45s ease, height .45s ease;
 }
 .site-header.scrolled {
-  background: rgba(243, 237, 222, .95);
+  background: rgba(231, 218, 189, .95);
   box-shadow: 0 1px 0 var(--line);
   height: 64px;
 }
@@ -224,7 +224,7 @@ section { position: relative; padding: clamp(84px, 11vw, 150px) 0; }
   .main-nav {
     position: fixed; inset: 0;
     z-index: 101;
-    background: rgba(243, 237, 222, .97);
+    background: rgba(231, 218, 189, .97);
     backdrop-filter: blur(18px);
     display: flex;
     align-items: center;
