@@ -767,7 +767,7 @@ section.inner { padding: 0; }
   background: linear-gradient(180deg, rgba(18,16,13,.6) 0%, rgba(18,16,13,.12) 38%, rgba(18,16,13,.55) 68%, rgba(18,16,13,.94) 100%);
 }
 .inner-banner h2 { max-width: 15ch; }
-.inner-banner .lede { max-width: 56ch; margin-top: 24px; color: var(--paper-dim); }
+.inner-banner .lede { max-width: 56ch; margin-top: 24px; }
 .inner-body { padding: clamp(88px, 11vw, 150px) 0 clamp(64px, 8vw, 104px); }
 .inner-close-band {
   position: relative;
