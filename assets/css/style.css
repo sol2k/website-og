@@ -243,7 +243,7 @@ section { position: relative; padding: clamp(84px, 11vw, 150px) 0; }
   min-height: 100svh;
   display: flex;
   align-items: flex-end;
-  padding: 0 0 clamp(64px, 9vw, 120px);
+  padding: calc(var(--header-h) + clamp(28px, 5vw, 56px)) 0 clamp(64px, 9vw, 120px);
   overflow: hidden;
 }
 .hero-media { position: absolute; inset: 0; z-index: -2; }
