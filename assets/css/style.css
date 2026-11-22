@@ -825,6 +825,8 @@ section.story { padding-top: clamp(88px, 11vw, 150px); }
   line-height: 1.55;
   color: var(--paper-dim);
   font-style: italic;
+  max-width: 680px;
+  margin: 0;
 }
 .story-body { max-width: 680px; }
 .story-body p { color: var(--muted); font-size: 1.02rem; line-height: 1.85; margin-bottom: 28px; }
