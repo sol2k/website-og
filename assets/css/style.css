@@ -459,6 +459,8 @@ section { position: relative; padding: clamp(84px, 11vw, 150px) 0; }
 .exp-meta h3 { color: #f4efe6; }
 .hero .eyebrow::before, .page-hero .eyebrow::before, .inner-banner .eyebrow::before { background: #d9bc85; }
 .hero .gold, .page-hero h1 .gold, .inner-banner .gold { color: #e5c98f; }
+.hero h1 .line:first-child > span { color: rgba(244, 239, 230, .68); }
+.hero h1 .gold { color: #f8e3ae; text-shadow: 0 0 26px rgba(248, 227, 174, .35), 0 2px 18px rgba(18, 16, 13, .4); }
 .exp-meta .where { color: #e5c98f; }
 .hero .btn, .page-hero .btn, .inner-banner .btn { color: #f4efe6; border-color: rgba(244, 239, 230, .55); }
 
