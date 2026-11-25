@@ -104,6 +104,7 @@ function init() {
     { name: "Tuscany, Italy",           lat: 43.77,  lon: 11.25 }
   ];
   const destGroup = new THREE.Group();
+  const labelGroup = new THREE.Group();
   DESTS.forEach((d) => {
     const m = new THREE.Mesh(
       new THREE.SphereGeometry(0.016, 12, 12),
@@ -114,6 +115,51 @@ function init() {
     destGroup.add(m);
   });
   globe.add(destGroup);
+  globe.add(labelGroup);
+
+  function buildLabels() {
+    while (labelGroup.children.length) {
+      const s = labelGroup.children.pop();
+      s.material.map.dispose();
+      s.material.dispose();
+      labelGroup.remove(s);
+    }
+    DESTS.forEach((d) => {
+      const label = makeLabel(d.name);
+      const pos = latLonToVec3(d.lat, d.lon, R * 1.004);
+      const n = pos.clone().normalize();
+      const up = new THREE.Vector3(0, 1, 0).addScaledVector(n, -n.y).normalize();
+      label.position.copy(pos).addScaledVector(up, 0.06).addScaledVector(n, 0.012);
+      labelGroup.add(label);
+    });
+  }
+  buildLabels();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(buildLabels);
+
+  function makeLabel(text) {
+    const pad = 18, fs = 34;
+    const c = document.createElement("canvas");
+    const ctx = c.getContext("2d");
+    ctx.font = `${fs}px Jost, sans-serif`;
+    const tw = Math.ceil(ctx.measureText(text).width);
+    c.width = tw + pad * 2;
+    c.height = fs + pad * 1.4;
+    const g = c.getContext("2d");
+    g.font = `${fs}px Jost, sans-serif`;
+    g.fillStyle = "rgba(18, 16, 13, 0.55)";
+    g.fillRect(0, 0, c.width, c.height);
+    g.fillStyle = "#f0e3c8";
+    g.textBaseline = "middle";
+    g.fillText(text, pad, c.height / 2 + 2);
+    const tex = new THREE.CanvasTexture(c);
+    tex.anisotropy = 4;
+    const spr = new THREE.Sprite(new THREE.SpriteMaterial({
+      map: tex, transparent: true, opacity: 0.92, depthTest: true
+    }));
+    const h = 0.042;
+    spr.scale.set(h * (c.width / c.height), h, 1);
+    return spr;
+  }
 
   /* ---------- Interaction ---------- */
   let rotX = 0.35, rotY = -1.1;          // current rotation
