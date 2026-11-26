@@ -1013,3 +1013,63 @@ table.compare tr:hover td { background: rgba(175,145,95,.05); }
 
 /* After-article contact */
 .after-post { margin-top: 88px; }
+.after-post[id] { scroll-margin-top: calc(var(--header-h) + 24px); }
+
+/* Dark lead form */
+.lead-form {
+  background: #1b1611 !important;
+  border-color: rgba(231, 218, 189, .22) !important;
+}
+.lead-form .field label { color: #b39a6b; }
+.lead-form .field input, .lead-form .field select, .lead-form .field textarea {
+  color: #f0e3c8;
+  border-bottom-color: rgba(231, 218, 189, .3);
+}
+.lead-form .field select option { background: #1b1611; color: #f0e3c8; }
+.lead-form .field input:focus, .lead-form .field select:focus, .lead-form .field textarea:focus { border-color: #d9bc85; }
+.lead-form .field input::placeholder, .lead-form .field textarea::placeholder { color: rgba(240, 227, 200, .38); }
+.lead-form .btn { color: #e5c98f; border-color: rgba(217, 188, 133, .65); }
+.lead-form .btn:hover, .lead-form .btn:focus-visible { color: #1b1611; }
+.lead-form .btn::after { background: #d9bc85; }
+.lead-form .form-note { color: rgba(240, 227, 200, .55); }
+.lead-form h3, .lead-form p { color: #f0e3c8; }
+.lead-form h3 + p, .lead-form p[style] { color: rgba(240, 227, 200, .65) !important; }
+
+/* Concierge banner */
+.concierge-banner {
+  position: relative;
+  margin: clamp(64px, 8vw, 104px) 0 0;
+  overflow: hidden;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+}
+.concierge-banner > img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  filter: brightness(.32) saturate(.85);
+  transform: scale(1.03);
+}
+.concierge-banner::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(16, 13, 10, .55) 0%, rgba(16, 13, 10, .15) 60%, transparent 100%);
+}
+.concierge-banner-inner {
+  position: relative;
+  z-index: 2;
+  padding: clamp(52px, 6vw, 84px) clamp(28px, 6vw, 76px);
+  max-width: 660px;
+}
+.concierge-banner .eyebrow { color: #d9bc85; }
+.concierge-banner .eyebrow::before { background: #d9bc85; }
+.concierge-banner h2 { color: #f2e8cf; font-size: clamp(1.8rem, 3.4vw, 2.5rem); }
+.concierge-banner p { color: rgba(242, 232, 207, .82); max-width: 52ch; }
+.concierge-banner .btn { margin-top: 30px; color: #f4efe6; border-color: rgba(244, 239, 230, .6); }
+.concierge-banner .btn:hover, .concierge-banner .btn:focus-visible { color: #14100c; }
+.concierge-banner .btn::after { background: #d9bc85; }
+@media (max-width: 640px) {
+  .concierge-banner { min-height: 380px; }
+  .concierge-banner-inner { padding: 44px 24px; }
+}

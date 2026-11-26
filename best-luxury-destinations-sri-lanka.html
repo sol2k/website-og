@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css?v=f28dc876">
+  <link rel="stylesheet" href="/assets/css/style.css?v=aa6edc80">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -520,13 +520,24 @@
         </div>
       </section>
 
+      <!-- CONCIERGE BANNER -->
+      <section class="concierge-banner" aria-label="Speak with the Solace concierge">
+        <img src="/assets/img/sl-tangalle.jpg?v=9a50d796" alt="" aria-hidden="true" loading="lazy" decoding="async">
+        <div class="concierge-banner-inner">
+          <p class="eyebrow">The Solace Concierge</p>
+          <h2>Sri Lanka, composed around you</h2>
+          <p>A retreat week in Ahangama, a celebration along the Mirissa coast, or the full island from Galle to the tea country. One conversation with our concierge team and the season, the stay and the doors that need opening are quietly arranged.</p>
+          <a class="btn" href="#plan">Contact the Concierge Team</a>
+        </div>
+      </section>
+
       <!-- AFTER-POST: LEAD FORM + CONTACT -->
-      <section class="after-post" aria-label="Plan your Sri Lanka journey">
+      <section class="after-post" id="plan" aria-label="Plan your Sri Lanka journey">
         <p class="eyebrow">Plan Your Journey</p>
         <h2 style="margin-bottom:18px">Tell us where your heart is set.</h2>
         <p style="color:var(--paper-dim);max-width:60ch;margin-bottom:40px">A retreat week in Ahangama, a celebration along the Mirissa coast, or the full island from Galle to the tea country: share a few details and a Solace travel designer will write back with a composed first sketch of the journey, usually within a day.</p>
 
-        <form id="sl-lead-form" data-validate novalidate
+        <form id="sl-lead-form" class="lead-form" data-validate novalidate
               style="border:1px solid var(--line);padding:clamp(28px,4vw,48px);background:var(--ink-2);margin-bottom:40px">
           <div class="field">
             <label for="sl-name">Your name</label>
@@ -574,7 +585,7 @@
           <button class="btn" type="submit" id="sl-lead-btn" style="width:100%;justify-content:center">Begin the Conversation</button>
           <p class="form-note">This reaches a Solace travel designer directly. Nothing is stored on this site beyond the reply you receive.</p>
         </form>
-        <div class="form-success" id="sl-lead-success" hidden style="border:1px solid var(--line);padding:clamp(28px,4vw,48px);background:var(--ink-2)">
+        <div class="form-success lead-form" id="sl-lead-success" hidden style="border:1px solid var(--line);padding:clamp(28px,4vw,48px);background:var(--ink-2)">
           <svg width="52" height="52" viewBox="0 0 52 52" fill="none" stroke="#d9bc85" stroke-width="1.4" aria-hidden="true"><circle cx="26" cy="26" r="24"/><path d="M16 27l7 7 13-15"/></svg>
           <h3 style="margin:18px 0 10px;font-size:1.4rem">Received, and already being read.</h3>
           <p style="color:var(--muted);max-width:52ch">A travel designer will reply within a day. If the dates are close, call or WhatsApp the concierge and we will begin immediately.</p>
