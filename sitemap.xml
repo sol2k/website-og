@@ -99,4 +99,14 @@
       <image:title>Best Luxury Vacation Destinations for Couples | Solace</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://solacesociety.in/best-luxury-destinations-sri-lanka</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solacesociety.in/assets/img/sl-hero.jpg</image:loc>
+      <image:title>15 Best Luxury Destinations in Sri Lanka | Solace</image:title>
+    </image:image>
+  </url>
 </urlset>
