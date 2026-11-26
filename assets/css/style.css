@@ -185,6 +185,22 @@ section { position: relative; padding: clamp(84px, 11vw, 150px) 0; }
 }
 .brand .brand-word em { font-style: normal; color: var(--gold-mid); }
 
+@media (min-width: 861px) {
+  .main-nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: var(--header-h);
+    z-index: 101;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: min(1440px, 100% - 48px);
+    margin-inline: auto;
+    transition: height .45s ease;
+  }
+  .site-header.scrolled ~ .main-nav { height: 64px; }
+}
+
 .main-nav ul { display: flex; gap: clamp(20px, 3vw, 44px); }
 .main-nav a {
   font-size: .76rem;
